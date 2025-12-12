@@ -1,0 +1,14 @@
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\bin\Debug\net10.0\CSharp-learning.exe
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\bin\Debug\net10.0\CSharp-learning.deps.json
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\bin\Debug\net10.0\CSharp-learning.runtimeconfig.json
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\bin\Debug\net10.0\CSharp-learning.dll
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\bin\Debug\net10.0\CSharp-learning.pdb
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.AssemblyInfo.cs
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.dll
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\refint\CSharp-learning.dll
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.pdb
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.genruntimeconfig.cache
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\ref\CSharp-learning.dll
