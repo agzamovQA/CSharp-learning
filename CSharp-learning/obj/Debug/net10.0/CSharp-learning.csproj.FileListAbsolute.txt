@@ -12,3 +12,4 @@ C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\re
 C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.pdb
 C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.genruntimeconfig.cache
 C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\ref\CSharp-learning.dll
+C:\Users\User\RiderProjects\CSharp-learning\CSharp-learning\obj\Debug\net10.0\CSharp-learning.sourcelink.json

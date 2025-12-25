@@ -1,8 +1,10 @@
 ﻿namespace CSharp_learning;
 
+
+
 class Program
 {
-    static void Main(string[] args)
+    static void ain(string[] args)
     {
         Console.WriteLine("Hello, World!");
         
