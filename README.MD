@@ -7,7 +7,7 @@
 
 ## 🖼️ Скриншот работы программы
 
-![Скриншот работы программы](CSharp-learning/screenshots/data-types-demo.png)
+![Скриншот работы программы](https://github.com/agzamovQA/CSharp-learning/blob/main/CSharp-learning/screenshots/data-types-demo.png)
 
 *Пример вывода программы о типах данных*
 
