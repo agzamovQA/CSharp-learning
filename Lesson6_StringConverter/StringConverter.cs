@@ -1,12 +1,20 @@
-﻿namespace Lesson6_StringConverter;
+﻿using System.Globalization;
+
+namespace Lesson6_StringConverter;
 
 class StringConverter
 {
     static void Main(string[] args)
     {
+        NumberFormatInfo numberFormat = new NumberFormatInfo()
+        {
+            NumberDecimalSeparator = ".",
+        };
+            
         string userInput;
 
-        int a, b;
+        int a;
+        double b;
 
         Console.WriteLine("Введите число 1");
         
@@ -18,11 +26,11 @@ class StringConverter
         
         userInput = Console.ReadLine();
         
-        b = Convert.ToInt32(userInput);
+        b = Convert.ToDouble(userInput, numberFormat);
 
-        int result = a + b;
+        double result = a + b;
         
-        Console.WriteLine("Результат сложения" + result);
+        Console.WriteLine("Результат сложения = " + result);
 
     }
 }
