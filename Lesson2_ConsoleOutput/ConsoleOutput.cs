@@ -2,9 +2,9 @@
 
 
 
-class Program
+class ConsoleOutput
 {
-    static void ain(string[] args)
+    static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
         
