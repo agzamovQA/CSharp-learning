@@ -101,7 +101,7 @@ class Calculator
                     Console.WriteLine("\tОшибка! Введите корректное число:");
                 }
         
-                double result = (userNumeric1 + userNumeric2) / 2;
+                result = (userNumeric1 + userNumeric2) / 2;
         
                 Console.WriteLine("\tСреднее арифметическое чисел " + userNumeric1 + " и " + userNumeric2 + " = " + result);
                 
