@@ -106,6 +106,32 @@ class Calculator
                 Console.WriteLine("\tСреднее арифметическое чисел " + userNumeric1 + " и " + userNumeric2 + " = " + result);
                 
                 break;
+            
+            case 2:
+                
+                Console.WriteLine("Введите число, для определения четности: \n");
+                
+                while (!double.TryParse(Console.ReadLine(), out userNumeric1))
+                {
+                    Console.WriteLine("\tОшибка! Введите корректное число:");
+                }
+                
+                if (userNumeric1 % 2 == 0)
+                {
+                    Console.WriteLine("Вы ввели четное число");
+                }
+                else
+                {
+                    Console.WriteLine("Вы ввели нечетное число");
+                }
+                
+                break;
+            
+            default:
+                Console.WriteLine("Неизвестная операция! Выберите 0, 1 или 2.");
+                break;
         }
+        Console.WriteLine("\nНажмите любую клавишу для выхода...");
+        Console.ReadKey();
     }
 }
