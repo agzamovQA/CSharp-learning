@@ -2,7 +2,7 @@
 
 class CalculatorMentorVarIfElse
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         double firstValue, secondValue;
         string action;
