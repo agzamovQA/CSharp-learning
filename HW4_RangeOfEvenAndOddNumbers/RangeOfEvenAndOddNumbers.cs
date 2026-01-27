@@ -11,6 +11,9 @@ class RangeOfEvenAndOddNumbers
         
         Console.Write("Введите число на котором закончить подсчет: ");
         int highestNumber = int.Parse(Console.ReadLine());
+        
+        int originalLowestNumber = lowestNumber; 
+        int originalHighestNumber = highestNumber;
 
         while (lowestNumber < highestNumber)
         {
@@ -26,6 +29,7 @@ class RangeOfEvenAndOddNumbers
             }
         }
         
+        Console.WriteLine("\nИтоги для диапазона от " + originalLowestNumber + " до " + originalHighestNumber);
         Console.WriteLine("Всего четных: " + even);
         Console.WriteLine("Всего нечетных: " + odd);
     }
