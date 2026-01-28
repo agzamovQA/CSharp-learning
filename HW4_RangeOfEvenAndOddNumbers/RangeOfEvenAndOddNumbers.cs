@@ -32,5 +32,8 @@ class RangeOfEvenAndOddNumbers
         Console.WriteLine("\nИтоги для диапазона от " + originalLowestNumber + " до " + originalHighestNumber);
         Console.WriteLine("Всего четных: " + even);
         Console.WriteLine("Всего нечетных: " + odd);
+        
+        Console.WriteLine("\nНажмите любую клавишу для выхода...");
+        Console.ReadKey();
     }
 }
