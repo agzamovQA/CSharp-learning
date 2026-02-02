@@ -6,9 +6,13 @@ class CourseProgressBar
 {
     static void Main(string[] args)
     {
-        while (true)
+        bool programIsRunning = true;
+        
+        while (programIsRunning)
         {
-            Console.WriteLine(">>> COURSE PROGRESS BAR v0.0.2 \n    ---------------------------------------- \n");
+            Console.Clear();
+            
+            Console.WriteLine(">>> COURSE PROGRESS BAR v0.0.3 \n    ---------------------------------------- \n");
             Console.WriteLine(":: Курсы доступные для выбора: \n    1 - C# SimpleCode\n    2 - QA Guru 'Java Automation'\n    3 - Kaino 3D (Witcher) \n    ---------------------------------------- \n");
             Console.WriteLine(":: Сервисные операции: \n    0 - Выход\n    ---------------------------------------- \n");
             Console.Write("Введите значение (0-3): ");
@@ -25,7 +29,9 @@ class CourseProgressBar
             {
                 switch (userChoice)
                 {
-                    case 0: 
+                    case 0:
+                        programIsRunning = false;
+                        Console.WriteLine("\nДо свидания!");
                         break;
                 
                     case 1: 
@@ -41,6 +47,22 @@ class CourseProgressBar
 
                         Console.WriteLine("\n    Вы прошли курс на " + courseProgress + "%");
                         Console.WriteLine("\n    Пройдено: " + userLesson + " из 110 уроков");
+                        Console.WriteLine("\n    Осталось: " + lessonComplition + " уроков");
+                        break;
+                    
+                    case 2: 
+                        Console.Write("Всего 23 Основных урока. Укажите ваш текущий урок: ");
+                        while (!double.TryParse(Console.ReadLine(), out userLesson))
+                        {
+                            Console.WriteLine("\tОшибка! Введите корректное число:");
+                        }
+
+                        courseProgress = userLesson / 23 * 100;
+                        courseProgress = Math.Round(courseProgress, 2);
+                        lessonComplition = 23 - userLesson;
+
+                        Console.WriteLine("\n    Вы прошли курс на " + courseProgress + "%");
+                        Console.WriteLine("\n    Пройдено: " + userLesson + " из 23 уроков");
                         Console.WriteLine("\n    Осталось: " + lessonComplition + " уроков");
                         break;
                 }
