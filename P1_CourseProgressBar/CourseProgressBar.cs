@@ -6,8 +6,12 @@ class CourseProgressBar
 {
     static void Main(string[] args)
     {
-        while (true)
+        bool programIsRunning = true;
+        
+        while (programIsRunning)
         {
+            Console.Clear();
+            
             Console.WriteLine(">>> COURSE PROGRESS BAR v0.0.3 \n    ---------------------------------------- \n");
             Console.WriteLine(":: Курсы доступные для выбора: \n    1 - C# SimpleCode\n    2 - QA Guru 'Java Automation'\n    3 - Kaino 3D (Witcher) \n    ---------------------------------------- \n");
             Console.WriteLine(":: Сервисные операции: \n    0 - Выход\n    ---------------------------------------- \n");
@@ -25,7 +29,9 @@ class CourseProgressBar
             {
                 switch (userChoice)
                 {
-                    case 0: 
+                    case 0:
+                        programIsRunning = false;
+                        Console.WriteLine("\nДо свидания!");
                         break;
                 
                     case 1: 
